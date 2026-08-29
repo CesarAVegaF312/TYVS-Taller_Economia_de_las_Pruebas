@@ -10,7 +10,7 @@
   <version>1.0-SNAPSHOT</version>
 
   <name>registraduria</name>
-  <description>Taller de Economia del Suite - Testing y Validacion de Software</description>
+  <description>Taller de Economia de las Pruebas - Testing y Validacion de Software</description>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>

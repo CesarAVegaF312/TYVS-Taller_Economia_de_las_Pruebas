@@ -1,4 +1,4 @@
-# Taller de Economía del Suite
+# Taller de Economía de las Pruebas
 
 Todos los talleres anteriores enseñan a **escribir** pruebas. Este enseña a
 **borrarlas**, que es mucho más difícil y casi nadie lo entrena.
