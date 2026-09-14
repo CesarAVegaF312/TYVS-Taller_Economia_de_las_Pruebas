@@ -15,7 +15,7 @@ rinden, y mantenerlas cuesta dinero.
 
 ---
 
-## 🎯 Objetivos
+## Objetivos
 
 - **Medir el coste real** de una suite, prueba por prueba, con los datos que
   Maven ya genera y nadie mira.
@@ -98,7 +98,7 @@ Salida real de una ejecución:
 Eso convierte *"la suite tarda un rato"* en *"una prueba se lleva el 90% del
 tiempo"*, que ya es accionable.
 
-> 💡 El analizador se prueba a sí mismo contra un XML fijo escrito en el test,
+> El analizador se prueba a sí mismo contra un XML fijo escrito en el test,
 > **no** contra los informes reales. Probarlo contra los reales lo haría
 > depender de lo rápida que sea la máquina — la patología del módulo 3, y
 > habría sido fácil caer en ella.
@@ -121,7 +121,7 @@ producción**, cambiando solo qué pruebas participan.
 | Completa | 13 | 23 | **92%** |
 | Solo `RegistryTest` | 7 | 22 | **88%** |
 
-> ⚠️ **El resultado no fue el esperado, y por eso es mejor.** La hipótesis al
+> **El resultado no fue el esperado, y por eso es mejor.** La hipótesis al
 > escribir el taller era que las patologías no aportarían **nada**. Es falso:
 > aportan un mutante. Y ahí está lo interesante, porque la pregunta económica
 > real casi nunca es *"¿sirve o no sirve?"* sino **"¿cuánto aporta y a qué

@@ -41,9 +41,9 @@ score no baja, esa prueba no estaba protegiendo nada.
 
 ## Un hallazgo bien redactado
 
-> ❌ "Esta prueba no sirve para nada."
+> **Mal:** "Esta prueba no sirve para nada."
 >
-> ✅ "PatologiasTest#pruebaLenta consume 1.573 s, el 89.7% del tiempo total de
+> **Bien:** "PatologiasTest#pruebaLenta consume 1.573 s, el 89.7% del tiempo total de
 > la suite, por cinco Thread.sleep(300) sobre un metodo sincrono. Ejecutando
 > PIT con y sin ella el mutation score no cambia (23/25 en los dos casos): no
 > mata ningun mutante en exclusiva. Decision: borrar. La suite pasa de 1.754 s
