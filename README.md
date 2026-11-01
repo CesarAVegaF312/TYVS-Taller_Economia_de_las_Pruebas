@@ -244,14 +244,17 @@ Si alguna respuesta es "sí", la prueba es inestable **aunque hoy pase**.
 
 ## PARA ENTREGAR CON ESTE TALLER
 
+> **Ejercicio y proyecto.** Este taller es el **ejercicio** de la unidad 6. Los módulos 2 y 4 se entregan sobre el código del taller, pero el informe de coste (módulo 1) y la auditoría de patologías (módulo 3) se hacen sobre **la suite del proyecto de su equipo**: es la suite que usted escribió, y la única sobre la que puede decidir qué borrar.
+
 ### 1) Repositorio
 
 - `mvn clean verify` en verde tras un clon limpio.
 
 ### 2) Informe de coste de una suite real (módulo 1)
 
-- Ejecute el analizador sobre **una suite de otro taller** (unitarias,
-  integración, seguridad o IA) y pegue el ranking.
+- Ejecute el analizador sobre **la suite del proyecto de su equipo** y pegue
+  el ranking. (Si su suite todavía es muy pequeña para que el ranking diga
+  algo, use la de otro taller y dígalo.)
 - Identifique el **20% de pruebas que consume más tiempo**.
 - ¿Está justificado ese tiempo en cada caso? Algunas pruebas lentas lo son con
   razón (Testcontainers levanta un PostgreSQL). Distinguirlas es el trabajo.
@@ -265,8 +268,9 @@ Si alguna respuesta es "sí", la prueba es inestable **aunque hoy pase**.
 
 ### 4) Auditoría de patologías (módulo 3)
 
-- Busque en **otro taller** al menos **tres pruebas** con alguna de las seis
-  patologías. Cítelas con archivo y línea.
+- Busque en **la suite de su proyecto** al menos **tres pruebas** con alguna
+  de las seis patologías. Cítelas con archivo y línea. (Si no encuentra tres,
+  complete con pruebas de otro taller y dígalo: también es un hallazgo.)
 - Para cada una: ¿la borraría, la arreglaría o la dejaría? Justifique con el
   criterio de coste/valor, no con intuición.
 - **Borre una de verdad**, mida el *mutation score* antes y después, y muestre
